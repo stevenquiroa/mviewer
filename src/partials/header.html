@@ -10,8 +10,10 @@
 	<meta charset="UTF-8">
 	<title>Manga Viewer</title>
 	<link data-pace-options='{ "ajax": false }' rel="stylesheet" href="../bower_components/pace/themes/pace-theme-flash.css">
-	<link rel="stylesheet" href="styles/vendor.css">
+	<!-- <link rel="stylesheet" href="styles/vendor.css"> -->	
+	<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="styles/app.css">
+
 	<script type="text/javascript">
 	var paceOptions = { 
 		"elements": { 
@@ -20,6 +22,24 @@
 		"startOnPageLoad": false 
 	};
 	</script>
-	<script data-pace-options='{ "ajax": false }' src="../bower_components/pace/pace.min.js"></script>
+	<script data-pace-options='{ "ajax": false }' src="../bower_components/pace/pace.min.js"></script>	
+	<script data-pace-options='{ "ajax": false }' src="../bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
+<header>
+	<div class="left-items menu-items">
+		<a href="" class="menu-item">
+			<i class="fa fa-bars"></i>
+		</a>				
+	</div>
+
+	<div class="center-items menu-items">
+		<h1>Manga Viewer</h1>		
+	</div>
+	<div class="right-items menu-items">						
+		<a href="" class="menu-item">
+			<i class="fa fa-chevron-right"></i>
+		</a>		
+	</div>	
+	
+</header>

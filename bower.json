@@ -1,0 +1,27 @@
+{
+  "name": "manga-viewer",
+  "version": "0.1.0",
+  "authors": [
+    "Steven Quiroa <stevenkm92@gmail.com>"
+  ],
+  "description": "The best manga viewer ever made!",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "manga",
+    "viewer",
+    "cutie"
+  ],
+  "license": "nope",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",    
+    "pace": "~0.5.7",
+    "modernizr": "~2.1.1",    
+    "font-awesome": "~0.5.7"
+  }
+}
