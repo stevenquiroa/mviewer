@@ -27,7 +27,7 @@ body{
 	}
 }
 header{
-	position: relative;
+	position: fixed;
 	background: @blue;
 	width: 100%;
 	color: white;
@@ -49,7 +49,9 @@ header{
 }
 .left-items{
 	background: darken(@blue, 10%);
-	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
 
 }
 .center-items{	
